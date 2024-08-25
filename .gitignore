@@ -1,0 +1,58 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.exe~
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Logs
+*.log
+
+# Configuration files
+*.env
+*.toml
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories
+/vendor/
+Gopkg.lock
+Gopkg.toml
+go.sum
+
+# Node modules for projects with frontend code
+node_modules/
+
+# Build directory, used by various build tools
+/build/
+
+# IntelliJ IDEA, Goland
+.idea/
+
+# VS Code directory
+.vscode/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Air (Go live-reloading tool) specific files
+.air/
+air.conf
+.air.toml
+
+# MacOS specific files
+.DS_Store
+
+# System files
+Thumbs.db
